@@ -26,8 +26,11 @@
    Добавьте в `.npmrc` ваши данные:
 
    ```ini
+   @tabs:registry=https://artifactory.mts.ru/artifactory/api/npm/npm-auto-p-npm-local/
    //artifactory.mts.ru/artifactory/api/npm/npm-auto-p-npm-local/:_authToken=ВАШ_ТОКЕН
-   email=ВАШ_EMAIL
+   //artifactory.mts.ru/artifactory/api/npm/npm-auto-p-npm-local/:email=ВАША_ПОЧТА
+   //artifactory.mts.ru/artifactory/api/npm/npm-auto-p-npm-local/:always-auth=true
+   strict-ssl=false
    ```
 
 3. **Обновите версию пакета вручную:**
